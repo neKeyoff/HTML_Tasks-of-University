@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: end; font-size: 20px; font-family: 'Courier New', Courier, monospace">
+        <a href="Lab7.1.html"> Обратная связь</a>
+    </div>
+
+    <div name="sign" style="display: flex; flex-direction: column; justify-content: center; align-items: center; font-family: 'Courier New', Courier, monospace; ">
+        <h1>Регистрация пользователя</h1>
+        <h3> Придумайте логин и пароль</h3>
+        <input  type="email" placeholder="E-mail" style="margin-block: 5px;" size="25">
+        <input type="password" placeholder="Пароль" style="margin-block: 5px;" size="25">
+        <input type="password" placeholder="Повторите пароль" style="margin-block: 5px;" size="25">
+        <h3>Выберете страну</h3>
+        <form name="form_sign" action="" method="get" >
+            <select name="Country" required>
+                <option disabled>Выберете страну</option>
+                <option>Англия</option>
+                <option>Китай</option>
+                <option>Россия</option>
+                <option>Эстония</option>
+                <option>Япония</option>
+            </select>
+        </form>
+        <h3>Выберете Ваш пол</h3>
+    </div>
+        <input type="radio" name="gender" value="man" style="margin-left: 670px;"> Мужской
+        <input type="radio" name="gender" value="female"> Жеснский
+
+    <div class="sign" style="display: flex; flex-direction: column; justify-content: center; align-items: center; font-family: 'Courier New', Courier, monospace; ">
+        <h3>Выберете дату рождения</h3>
+        <input type="date">
+    </div>
+    <p style="display:flex; justify-content: center;"><input type="submit" value="Завершить регистрацию"></p>
+</body>
+</html>
